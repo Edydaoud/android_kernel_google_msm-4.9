@@ -14,6 +14,6 @@ jobs:
       uses: lemniskett/android-kernel-actions@master
       with:
         arch: arm64                                   # Specify arch
-        compiler: aosp-clang/master/clang-r416183b, aosp-clang/android11-release/clang-r365631c/binutils
+        compiler: aosp-clang/android11-release/clang-r383902/binutils
         defconfig: lineageos_crosshatch_defconfig       # Specify defconfig to use
         image: Image.gz-dtb                           # Specify final build file
