@@ -14,6 +14,6 @@ jobs:
       uses: lemniskett/android-kernel-actions@master
       with:
         arch: arm64                                   # Specify arch
-        compiler: proton-clang/master/binutils        # Specify toolchain to use
+        compiler: aosp-clang/master/clang-r416183b, aosp-clang/android11-release/clang-r365631c/binutils
         defconfig: lineageos_crosshatch_defconfig       # Specify defconfig to use
         image: Image.gz-dtb                           # Specify final build file
