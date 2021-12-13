@@ -32,7 +32,6 @@ jobs:
          
        - name: "Make Kernel"
          run: |
-            cd android_kernel_google_msm-4.9
             export ARCH=arm64
             export SUBARCH=arm64
             export CROSS_COMPILE=aarch64-linux-android-
