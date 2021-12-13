@@ -36,5 +36,5 @@ jobs:
             export SUBARCH=arm64
             export CROSS_COMPILE=aarch64-linux-android-
             export PATH=../Toolchain/bin
-            make $DEFCONFIG_NAME
-            make
+            /usr/bin/make $DEFCONFIG_NAME
+            /usr/bin/make
