@@ -16,4 +16,4 @@ jobs:
         arch: arm64                                   # Specify arch
         compiler: proton-clang/master/binutils
         defconfig: lineageos_crosshatch_defconfig       # Specify defconfig to use
-        image: Image.gz-dtb                           # Specify final build file
+        image: Image.lz4-dtb                           # Specify final build file
